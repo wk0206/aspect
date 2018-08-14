@@ -1,10 +1,9 @@
 # aspect
 java -jar aspect-0.0.1-SNAPSHOT.jar
 
-entry: http://localhost:8080/index.html
+Entrance: http://localhost:8080/index.html
 
-detailed 
-endpoint:
+detailed endpoint:
       
       type : "POST",
       url : "http://localhost:8080/orders",
