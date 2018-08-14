@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.wk.aspect","l":"AspectApplication"},{"p":"com.wk.aspect","l":"AspectApplicationTests"},{"p":"com.wk.aspect.PBQ","l":"Consumer"},{"p":"com.wk.aspect.PBQ","l":"JsonResult"},{"p":"com.wk.aspect.PBQ","l":"Order"},{"p":"com.wk.aspect.PBQ","l":"OrderController"},{"p":"com.wk.aspect.PBQ","l":"Producer"},{"p":"com.wk.aspect.PBQ","l":"ResultCode"}]
