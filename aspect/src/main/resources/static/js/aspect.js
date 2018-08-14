@@ -20,7 +20,7 @@ resTable.controller('tableCtrl', function($scope, $http,$timeout) {
 function check() {
 	$.ajax({
 		type : "POST",
-		url : "http://localhost:8080/orders",
+		url : "/orders",
 		async : true,
 		success : function(data) {
 			document.getElementById("resultArea").value = JSON.stringify(data);
@@ -37,7 +37,7 @@ function checkid() {
 	$.ajax({
 		type : "GET",
 		data : "",
-		url : "http://localhost:8080/order/" + id,
+		url : "/order/" + id,
 		async : true,
 		success : function(data) {
 			document.getElementById("resultArea").value = JSON.stringify(data);
@@ -55,7 +55,7 @@ function putOrder() {
 	$.ajax({
 		type : "POST",
 		data : "quantity=" + quantity,
-		url : "http://localhost:8080/order/" + id,
+		url : "/order/" + id,
 		async : true,
 		success : function(data) {
 			document.getElementById("resultArea").value = JSON.stringify(data);
@@ -72,7 +72,7 @@ function cancelOrder() {
 	$.ajax({
 		type : "DELETE",
 		data : "",
-		url : "http://localhost:8080/order/" + id,
+		url : "/order/" + id,
 		async : true,
 		success : function(data) {
 			document.getElementById("resultArea").value = JSON.stringify(data);
@@ -89,7 +89,7 @@ function next() {
 	$.ajax({
 		type : "POST",
 		data : "",
-		url : "http://localhost:8080/nextDelivery",
+		url : "/nextDelivery",
 		async : true,
 		success : function(data) {
 			document.getElementById("resultArea").value = JSON.stringify(data);
@@ -106,7 +106,7 @@ function clearQueue() {
 	$.ajax({
 		type : "GET",
 		data : "",
-		url : "http://localhost:8080/clearQueue",
+		url : "/clearQueue",
 		async : true,
 		success : function(data) {
 			document.getElementById("resultArea").value = JSON.stringify(data);
