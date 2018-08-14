@@ -3,6 +3,9 @@ java -jar aspect-0.0.1-SNAPSHOT.jar
 
 Entrance: http://localhost:8080/index.html
 
+after start, already 2 element inside. 
+clear the queue if you want.
+
 detailed endpoint:
       
       type : "POST",
